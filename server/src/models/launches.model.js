@@ -23,7 +23,7 @@
  function getAllLaunches(){
     return [...launches.values()];
  }
-
+ 
  function addNewLaunches(launch){
     latestFlightNumber++;
     launches.set(latestFlightNumber, Object.assign(launch,{
