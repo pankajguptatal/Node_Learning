@@ -33,10 +33,11 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
       rocket,
       target,
     });
-
+console.log('submmitted the launch')
     // TODO: Set success based on response.
     const success = response.ok;
     if (success) {
+      console.log('came here to fetch ')
       getLaunches();
       setTimeout(() => {
         setPendingLaunch(false);

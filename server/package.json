@@ -12,6 +12,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "jest":{
+    "testEnvironment": "node"
+  },
   "devDependencies": {
     "jest": "^29.7.0",
     "nodemon": "^3.1.9",
@@ -20,6 +23,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "csv-parse": "^5.6.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.13.3"
   }
 }
